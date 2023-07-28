@@ -28,3 +28,7 @@ Unfortunately the proximity sensor does not come with a default connector.
 The board is designed to use a JST XH-5A. It is 5 pin only to ensure it does not mate with the other connectors on the board such as the homing sensors. Pin 3 is the signal pin. Power and ground pins are doubled so you can use either of Pins 1 and 2 for ground and either of Pins 4 and 5 for +12v. 
 If you have a soldering iron, you can just solder the wires directly to the board if you dont have the appropriate connectors and crimping tools.
 
+
+## Parts Links
+[KF2510 Connector Kit](https://www.amazon.com/dp/B01M69TKAM)
+[JST-XH & JST-SM Connector Kit with Crimp Tool](https://www.amazon.com/gp/product/B09X111BK5) (can be used to crimp KF2510 as well)
