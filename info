@@ -4,7 +4,7 @@
   "name": "AiSortArduino",
   "content": "Stepper Controller for case sorter\n",
   "created_at": "2023-07-09 20:57:20",
-  "updated_at": "2023-07-20 17:50:10",
+  "updated_at": "2023-07-28 09:38:14",
   "stick": "",
   "documents": [
     {
@@ -1876,11 +1876,8 @@
       "components": {
         "fbc24517aa244162a0a33aa169b8e1ac": 3,
         "d7ea8178954e4a5cafb2afbdc9048aa5": 1,
-        "398691f1f785460098bbe5ee6590333c": 14,
-        "2ff699914e4849dc8fa1384e78f43943": 2,
-        "44fcca6eca864e91b6b2b73e4998abd0": 1,
-        "b20c1cdabd284e13b04a051de34aa7eb": 1,
         "d5ff776ab51a4fce9b40e3d9c7af3784": 1,
+        "398691f1f785460098bbe5ee6590333c": 14,
         "f8151fdc728a41ebbc304e11d39e5437": 1,
         "743f02f614624025bdfe490c3e40495d": 1,
         "daacbe2eec304950b61eef2efe596556": 1,
@@ -1894,7 +1891,10 @@
         "448c41be970748ce8208717b824a7b41": 2,
         "73776f6078c7435fbc0db5be8d8922d9": 1,
         "e859473b8afc4622b2361a2aa5b87b2c": 2,
-        "a498f66951a244e1a44d015cbdb04059": 1
+        "a498f66951a244e1a44d015cbdb04059": 1,
+        "2ff699914e4849dc8fa1384e78f43943": 2,
+        "44fcca6eca864e91b6b2b73e4998abd0": 1,
+        "b20c1cdabd284e13b04a051de34aa7eb": 1
       },
       "BOM": [
         [
@@ -2350,11 +2350,11 @@
           }
         ]
       ],
-      "updateTime": 1689889810,
+      "updateTime": 1690551494,
       "createTime": 1689280947,
       "histories": [],
       "created_at": "2023-07-13 16:42:27",
-      "updated_at": "2023-07-20 17:50:10"
+      "updated_at": "2023-07-28 09:38:14"
     },
     {
       "uuid": "0eaadd8547f0e57ac0fbae8ad48a6d67",
