@@ -4,7 +4,7 @@
   "name": "AiSortArduino",
   "content": "Stepper Controller for case sorter\n",
   "created_at": "2023-07-09 20:57:20",
-  "updated_at": "2023-07-31 05:12:50",
+  "updated_at": "2023-08-02 01:11:20",
   "stick": "",
   "documents": [
     {
@@ -400,11 +400,11 @@
           }
         ]
       ],
-      "updateTime": 1689885395,
+      "updateTime": 1690902448,
       "createTime": 1689248100,
       "histories": [],
       "created_at": "2023-07-13 07:35:00",
-      "updated_at": "2023-07-20 16:36:35"
+      "updated_at": "2023-08-01 11:07:28"
     },
     {
       "uuid": "4655bf196d16b5a043caad41a30609f0",
@@ -1378,7 +1378,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "b0248eb51e084227889f2cb84eab79c4": 8,
+        "b0248eb51e084227889f2cb84eab79c4": 9,
         "5c1036b53a4146e4841df4ed0a9de8f0": 1,
         "416fb0ff126b4367937d22d78c3b9e3b": 1,
         "a45e9d483d504090a2cef10b27b0ffac": 1,
@@ -1398,70 +1398,10 @@
           "CustomPara"
         ],
         [
-          "100nF",
-          1,
-          "C0402",
-          "C4",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "MuRata",
-            "BOM_Manufacturer Part": "GRM155R61H104KE14D",
-            "BOM_Supplier Part": "C85960",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
-            "uuid": "37553154853c0063c37e83c92bee199c"
-          }
-        ],
-        [
-          "10uF",
-          1,
-          "C0603",
-          "C5",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "MuRata",
-            "BOM_Manufacturer Part": "GRM188R60J106KE47D",
-            "BOM_Supplier Part": "C77040",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
-            "uuid": "338dc7c56ab347c6ba0904e6b9fbe67c"
-          }
-        ],
-        [
-          "1nF",
-          1,
-          "C0402",
-          "C6",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C437524",
-            "BOM_Manufacturer": "Murata Electronics",
-            "BOM_Manufacturer Part": "GRM155R61C102KA01D",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
-            "uuid": "9246184e39a54b2892e4735ff14d69aa"
-          }
-        ],
-        [
-          "5103308-2",
-          1,
-          "IDC-TH_14P-P2.54-S2.54_L9.14-W25.4",
-          "JTAG",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C305954",
-            "BOM_Manufacturer": "TE Connectivity",
-            "BOM_Manufacturer Part": "5103308-2",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "57c1e3b037044ee79168fa8c6595d799",
-            "uuid": "9c9b091a29bc4c5cbb45f7a937de5148"
-          }
-        ],
-        [
           "0",
-          2,
+          1,
           "F0603",
-          "JTAG-VCCTARGET1,JTAG-VCCTOOL1",
+          "12V_LINK",
           {
             "BOM_Supplier Part": "",
             "BOM_Supplier": "",
@@ -1471,31 +1411,17 @@
           }
         ],
         [
-          "47k",
-          1,
-          "R0603",
-          "R8",
+          "Headers & Wire Housings KK 100 Hdr FrLk Vert 08 Ckt Tin",
+          3,
+          "SIP 8 HEADER 2.54 PITCH",
+          "J1,J2,J3",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
-          }
-        ],
-        [
-          "MSP430FR2355TPTR",
-          1,
-          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
-          "U1",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C2053541",
-            "BOM_Manufacturer": "TI(德州仪器)",
-            "BOM_Manufacturer Part": "MSP430FR2355TPTR",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "4a13c433861640209b7106f419770da9",
-            "uuid": "dcd19f97093d4031a96c35071c24c192"
+            "BOM_Manufacturer": "Molex",
+            "BOM_Manufacturer Part": "22-23-2082",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "538-22-23-2082",
+            "puuid": "fbc24517aa244162a0a33aa169b8e1ac",
+            "uuid": "e83a427f105e4e07b206d3d712d67e46"
           }
         ],
         [
@@ -1507,7 +1433,7 @@
             "BOM_Supplier Part": "",
             "BOM_Supplier": "",
             "BOM_Manufacturer Part": "",
-            "puuid": "01a478a530a94b14bae518ff89880c0b",
+            "puuid": "d5ff776ab51a4fce9b40e3d9c7af3784",
             "uuid": "ccac5cb046f2459eb600e8b12fb12af9"
           }
         ],
@@ -1737,9 +1663,9 @@
         ],
         [
           "10k",
-          1,
+          2,
           "R0603",
-          "R1",
+          "R1,R8",
           {
             "BOM_Supplier Part": "",
             "BOM_Supplier": "",
@@ -1842,27 +1768,13 @@
             "puuid": "ba78760833d24815a3b603cbd251d282",
             "uuid": "4d0c0e45913e4e2ea5b09504ba9f0d0c"
           }
-        ],
-        [
-          "Headers & Wire Housings KK 100 Hdr FrLk Vert 08 Ckt Tin",
-          6,
-          "SIP 8 HEADER 2.54 PITCH",
-          "J9,J10,J11,J12,J13,J14",
-          {
-            "BOM_Manufacturer": "Molex",
-            "BOM_Manufacturer Part": "22-23-2082",
-            "BOM_Supplier": "Mouser",
-            "BOM_Supplier Part": "538-22-23-2082",
-            "puuid": "fbc24517aa244162a0a33aa169b8e1ac",
-            "uuid": "e83a427f105e4e07b206d3d712d67e46"
-          }
         ]
       ],
-      "updateTime": 1689325439,
+      "updateTime": 1690927704,
       "createTime": 1688950999,
       "histories": [],
       "created_at": "2023-07-09 21:03:19",
-      "updated_at": "2023-07-14 05:03:59"
+      "updated_at": "2023-08-01 18:08:24"
     },
     {
       "uuid": "d42d3d701f20fc074264951b72f2dcd9",
@@ -1874,7 +1786,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "398691f1f785460098bbe5ee6590333c": 14,
+        "398691f1f785460098bbe5ee6590333c": 15,
         "2ff699914e4849dc8fa1384e78f43943": 2,
         "44fcca6eca864e91b6b2b73e4998abd0": 1,
         "b20c1cdabd284e13b04a051de34aa7eb": 1,
@@ -2350,11 +2262,11 @@
           }
         ]
       ],
-      "updateTime": 1690794770,
+      "updateTime": 1690953080,
       "createTime": 1689280947,
       "histories": [],
       "created_at": "2023-07-13 16:42:27",
-      "updated_at": "2023-07-31 05:12:50"
+      "updated_at": "2023-08-02 01:11:20"
     },
     {
       "uuid": "0eaadd8547f0e57ac0fbae8ad48a6d67",
@@ -2380,5 +2292,5 @@
   "title": "AiSortArduino",
   "foldername": "AiSortArduino",
   "schfilename": "AiSortArduino.json",
-  "schfilemtime": 1689885395698
+  "schfilemtime": 1690927704279
 }
