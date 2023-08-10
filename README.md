@@ -1,9 +1,10 @@
 # AiSort Arduino
-Features connectors which match the parts list with the exception of the proximity sensor which does not include a connector.
+This is a PCB for the [AI Case Sorter CS7.1](https://github.com/sjseth/AI-Case-Sorter-CS7.1) project. It feeatures connectors which match the parts list with the exception of the proximity sensor which does not include a connector.
+
 Uses bluetooth for pc connectivity because I am big dumb and forgot that the webcam needs to plug in, so it can't be a fully wireless connection.
 
 ## Microcontroller
-Uses Arduino pro mini as controller 
+Uses 3.3V Arduino pro mini as controller 
 
 ## Motor Drivers
 supports both the TCM 2209 and DRV8825 motor controllers. You can use a matched pair or mix and match, based on what components you have on hand.
@@ -31,4 +32,7 @@ If you have a soldering iron, you can just solder the wires directly to the boar
 
 ## Parts Links
 [KF2510 Connector Kit](https://www.amazon.com/dp/B01M69TKAM)
+
 [JST-XH & JST-SM Connector Kit with Crimp Tool](https://www.amazon.com/gp/product/B09X111BK5) (can be used to crimp KF2510 as well)
+
+[Arduino pro mini 3.3V](https://www.ebay.com/itm/404241279783)
