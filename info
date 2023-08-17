@@ -4,7 +4,7 @@
   "name": "AiSortArduino",
   "content": "Stepper Controller for case sorter\n",
   "created_at": "2023-07-09 20:57:20",
-  "updated_at": "2023-08-03 13:23:58",
+  "updated_at": "2023-08-17 03:06:03",
   "stick": "",
   "documents": [
     {
@@ -418,7 +418,8 @@
         "338dc7c56ab347c6ba0904e6b9fbe67c": 1,
         "810c199d274b4b5799a60b5d4874c133": 2,
         "96234d8ce0b54411a915985eda4b7858": 1,
-        "bbffe53cdd8c4b919668e1f544186535": 1
+        "bbffe53cdd8c4b919668e1f544186535": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 1
       },
       "BOM": [
         [
@@ -474,10 +475,10 @@
           "C0603",
           "C1",
           {
-            "BOM_Supplier": "LCSC",
+            "BOM_Supplier": "Digi-Key",
             "BOM_Manufacturer": "muRata(村田)",
-            "BOM_Manufacturer Part": "GRM188R60J106KE47D",
-            "BOM_Supplier Part": "C77040",
+            "BOM_Manufacturer Part": "GRM188R61E106KA73J",
+            "BOM_Supplier Part": "490-GRM188R61E106KA73JCT-ND",
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "f8151fdc728a41ebbc304e11d39e5437",
             "uuid": "338dc7c56ab347c6ba0904e6b9fbe67c"
@@ -521,6 +522,19 @@
             "BOM_Manufacturer Part": "",
             "puuid": "b20c1cdabd284e13b04a051de34aa7eb",
             "uuid": "bbffe53cdd8c4b919668e1f544186535"
+          }
+        ],
+        [
+          "300",
+          1,
+          "R0603",
+          "R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
           }
         ],
         [
@@ -706,36 +720,10 @@
           }
         ],
         [
-          "280",
-          1,
+          "300",
+          2,
           "R0603",
-          "R2",
-          {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
-          }
-        ],
-        [
-          "100",
-          4,
-          "R0603",
-          "R3,R6,R10,R11",
-          {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
-          }
-        ],
-        [
-          "500",
-          1,
-          "R0603",
-          "R4",
+          "R2,R3",
           {
             "BOM_Supplier Part": "",
             "BOM_Supplier": "",
@@ -758,6 +746,19 @@
           }
         ],
         [
+          "100",
+          3,
+          "R0603",
+          "R6,R10,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
           "0",
           3,
           "R0603",
@@ -768,6 +769,19 @@
             "BOM_Manufacturer Part": "",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "500",
+          1,
+          "R0603",
+          "R14",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
           }
         ],
         [
@@ -801,11 +815,11 @@
           }
         ]
       ],
-      "updateTime": 1691079899,
+      "updateTime": 1692255143,
       "createTime": 1688950999,
       "histories": [],
       "created_at": "2023-07-09 21:03:19",
-      "updated_at": "2023-08-03 12:24:59"
+      "updated_at": "2023-08-17 02:52:23"
     },
     {
       "uuid": "04c52c153c9c26a1bc50e6ef324dcbb6",
@@ -1369,10 +1383,10 @@
           "C0603",
           "C1",
           {
-            "BOM_Supplier": "LCSC",
+            "BOM_Supplier": "Digi-Key",
             "BOM_Manufacturer": "muRata(村田)",
-            "BOM_Manufacturer Part": "GRM188R60J106KE47D",
-            "BOM_Supplier Part": "C77040",
+            "BOM_Manufacturer Part": "GRM188R61E106KA73J",
+            "BOM_Supplier Part": "490-GRM188R61E106KA73JCT-ND",
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "f8151fdc728a41ebbc304e11d39e5437",
             "uuid": "338dc7c56ab347c6ba0904e6b9fbe67c"
@@ -1416,6 +1430,19 @@
             "BOM_Manufacturer Part": "",
             "puuid": "b20c1cdabd284e13b04a051de34aa7eb",
             "uuid": "bbffe53cdd8c4b919668e1f544186535"
+          }
+        ],
+        [
+          "300",
+          1,
+          "R0603",
+          "R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
           }
         ],
         [
@@ -1601,36 +1628,10 @@
           }
         ],
         [
-          "280",
-          1,
+          "300",
+          2,
           "R0603",
-          "R2",
-          {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
-          }
-        ],
-        [
-          "100",
-          4,
-          "R0603",
-          "R3,R6,R10,R11",
-          {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
-          }
-        ],
-        [
-          "500",
-          1,
-          "R0603",
-          "R4",
+          "R2,R3",
           {
             "BOM_Supplier Part": "",
             "BOM_Supplier": "",
@@ -1653,6 +1654,19 @@
           }
         ],
         [
+          "100",
+          3,
+          "R0603",
+          "R6,R10,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
           "0",
           3,
           "R0603",
@@ -1663,6 +1677,19 @@
             "BOM_Manufacturer Part": "",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "500",
+          1,
+          "R0603",
+          "R14",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
           }
         ],
         [
@@ -1696,11 +1723,11 @@
           }
         ]
       ],
-      "updateTime": 1690927704,
+      "updateTime": 1692254961,
       "createTime": 1688950999,
       "histories": [],
       "created_at": "2023-07-09 21:03:19",
-      "updated_at": "2023-08-01 18:08:24"
+      "updated_at": "2023-08-17 02:49:21"
     },
     {
       "uuid": "d42d3d701f20fc074264951b72f2dcd9",
@@ -1712,10 +1739,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "398691f1f785460098bbe5ee6590333c": 16,
         "b20c1cdabd284e13b04a051de34aa7eb": 1,
-        "398691f1f785460098bbe5ee6590333c": 15,
-        "2ff699914e4849dc8fa1384e78f43943": 2,
-        "44fcca6eca864e91b6b2b73e4998abd0": 1,
         "fbc24517aa244162a0a33aa169b8e1ac": 3,
         "d7ea8178954e4a5cafb2afbdc9048aa5": 1,
         "d5ff776ab51a4fce9b40e3d9c7af3784": 1,
@@ -1732,7 +1757,9 @@
         "448c41be970748ce8208717b824a7b41": 2,
         "73776f6078c7435fbc0db5be8d8922d9": 1,
         "e859473b8afc4622b2361a2aa5b87b2c": 2,
-        "a498f66951a244e1a44d015cbdb04059": 1
+        "a498f66951a244e1a44d015cbdb04059": 1,
+        "2ff699914e4849dc8fa1384e78f43943": 2,
+        "44fcca6eca864e91b6b2b73e4998abd0": 1
       },
       "BOM": [
         [
@@ -2188,11 +2215,11 @@
           }
         ]
       ],
-      "updateTime": 1691083438,
+      "updateTime": 1692255963,
       "createTime": 1689280947,
       "histories": [],
       "created_at": "2023-07-13 16:42:27",
-      "updated_at": "2023-08-03 13:23:58"
+      "updated_at": "2023-08-17 03:06:03"
     },
     {
       "uuid": "0eaadd8547f0e57ac0fbae8ad48a6d67",
@@ -2218,5 +2245,5 @@
   "title": "AiSortArduino",
   "foldername": "AiSortArduino",
   "schfilename": "AiSortArduino.json",
-  "schfilemtime": 1691079899714
+  "schfilemtime": 1692255143217
 }
